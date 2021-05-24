@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en" manifest="portfolio.appcache">
+<head>
+<title>Joshua Jinkerson Portfolio</title>
+<meta charset="UTF-8" />
+<!-- Provide a short description of the page. -->
+<meta name="description" content="Portfolio website of graphic, visual, and web designer Joshua Jinkerson.">
+<!-- This meta tag tells Google not to show the sitelinks search box. -->
+<meta name="google" content="nositelinkssearchbox" />	
+<!-- Control the behavior of search engine crawling and indexing. 
+ The robots meta tag applies to all search engines, while the "googlebot" meta tag is specific to Google. -->
+<meta name="robots" content="..., ..." />
+<meta name="http-equiv" content="X-Robots-Tag : noindex, follow" />
+<meta name="googlebot" content="..., ..." />	
+<!-- Used for verifying ownership of a site. -->
+<meta name="verify" content=""/>
+<!-- Open Graph Meta Tags -->
+<!-- Set the canonical URL for the page you are sharing. -->
+<meta property="og:url" content="http://www.joshuajinkerson.com/">
+<!-- The title to accompany the URL. -->
+<meta property="og:title" content="Joshua Jinkerson Portfolio"/>
+<!-- Defines the language, American English is the default. -->
+<meta property="og:locale" content="en-IN">
+<meta name="keywords" content="visual effects, vfx, compositing, fumefx, motion graphics, maya, graphic design, fracturefx, python scripting, demo reel, after illustrator, photoshoop, video editor, animation">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+<meta http-equiv="Cache-Control" content="max-age=200" />
+<!-- <link href="css/normalize.css" rel="stylesheet" type="text/css"> -->
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all">
+<link rel="shortcut icon" href="site_graphics/favicon.ico" />
+<script src="js/jquery-1.8.3.min.js"></script>
+<script>
+	$(function() {
+	  $('a[href*=#]:not([href=#])').click(function() {
+	    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+
+	      var target = $(this.hash);
+	      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+	      if (target.length) {
+	        $('html,body').animate({
+	          scrollTop: target.offset().top
+	        }, 1000);
+	        return false;
+	      }
+	    }
+	  });
+	});
+</script>
+</head>
+<header>
+<div class="logo">
+ <a href="#title"><img src="site_graphics/Logo_0000.png" class="logo"  alt="logo"></a>
+</div>
+    <nav>
+        <a href="#reel">Reel</a>&nbsp;
+        <a href="#work">Work</a>&nbsp;
+        <a href="#about">About</a>&nbsp;
+        <a href="#contact">Contact</a>&nbsp;
+    </nav> 
+</header>
+<body>
+<div id="title">
+    <div id="title_text">
+JOSHUA JINKERSON <br> WEB & GRAPHIC DESIGNER
+    </div>
+</div>
+<main>
+<section id="demo">
+<video  poster="posters/explosion.jpg" id="reel">
+    <source src="media/medium/Joshua_Jinkerson_Demo_Reel.mp4" type="video/mp4">
+</video>
+</section>
+<section id="work">
+    <div>  
+        <h2>Work</h2>
+        <button class="filter" data-filter="all">Show All</button>
+        <button class="filter" data-filter=".category-1">VFX</button>
+        <button class="filter" data-filter=".category-2">Motion Graphics</button>
+        <button class="filter" data-filter=".category-3">Compositing</button>
+        <button class="filter" data-filter=".category-4">Graphic Design</button>
+    </div>
+<div id="mixup"> 	
+<video class="mix category-1" poster="posters/lighthouse_thumb.jpg">
+    <source src="media/medium/Lighthouse_Shatter.mp4" type="video/mp4" > 
+</video>
+<video class="mix category-1" poster="posters/shatter_explosion.jpg">
+    <source src="media/medium/Shatter_Explosion.mp4" type="video/mp4" >
+</video>
+<video class="mix category-1" poster="posters/plane_test.jpg">
+    <source src="media/medium/Plane_Test.mp4" type="video/mp4" >
+</video>
+<video class="mix category-1" poster="posters/explosion.jpg">
+    <source src="media/medium/FumeFX_Projects.mp4" type="video/mp4" >
+</video>
+<video class="mix category-3" poster="posters/car_breakdown_thumb.jpg">
+    <source src="media/medium/Car_Bomb_Breakdown.mp4" type="video/mp4" >
+</video>
+<video class="mix category-2" poster="posters/avengers_thumb.jpg">
+    <source src="media/medium/Avengers.mp4" type="video/mp4" >
+</video>
+<video class="mix category-3" poster="posters/shot_creation.jpg">
+    <source src="media/medium/Shot_Creation_Script_Sample.mp4" type="video/mp4" >
+</video>
+<video class="mix category-3" poster="posters/render_script.jpg">
+    <source src="media/medium/Render_Script_Sample.mp4" type="video/mp4" >
+</video>
+<video class="mix category-3" poster="posters/boxman_thumb.jpg">
+    <source src="media/medium/Boxman_Breakdown.mp4" type="video/mp4" >
+</video>
+<video class="mix category-3" poster="posters/mobius_thumb.jpg">
+    <source src="media/medium/Mobius_Breakdown.mp4" type="video/mp4" >
+</video>
+<video class="mix category-2" poster="posters/citylife_thumb.jpg">
+    <source src="media/medium/Internship_Graphics.mp4" type="video/mp4" >
+</video>
+<video class="mix category-2" poster="posters/ai_news_thumb.jpg">
+    <source src="media/medium/Ai_News_Breakdown.mp4" type="video/mp4" >
+</video>
+<video class="mix category-1" poster="posters/guest_thumb.jpg">
+    <source src="media/medium/Guest_FX.mp4" type="video/mp4" >
+</video>
+<video class="mix category-3" poster="posters/jackson_thumb.jpg">
+    <source src="media/medium/Jackson_Breakdown.mp4" type="video/mp4" >
+</video>
+<video class="mix category-1" poster="posters/sandstorm.jpg">
+    <source src="media/medium/Sandstorm_FumeFX.mp4" type="video/mp4" >
+</video>
+<img src="site_graphics/beef_label.jpg" class="mix category-4" alt="Dog food beef label design">
+<img src="site_graphics/chicken_label.jpg" class="mix category-4" alt="Dog food chicken label design">
+<img src="site_graphics/fish_label.jpg" class="mix category-4" alt="Dog food fish label design">
+<img src="site_graphics/Light_Model.jpg" class="mix category-4" alt="3D Model of a Light">
+<img src="site_graphics/Chair_Model.jpg" class="mix category-4" alt="3D Model of a Chair">
+</div>    
+</section>
+<section id="about">
+<h2>About Me</h2>
+<aside>
+<img src="site_graphics/magazine.jpg" id="sample" alt="Sample Magazine Cover"><br>
+<p style="font-family:Arial; font-weight:700;">Magazine cover design for dog food company.</p>
+</aside>
+<p>As an artist I enjoy working in a variety of digital mediums. I have experience with video editing, graphic design, web development, 3D animation. I am consistently learning new skills and techniques to keep me growing and to become a better artist. With skills in Photoshop and Illustrator I can edit or design most graphics that are needed. I can use After Effects to create motion graphics and video effects while editing with Premiere.</p>
+<p>Web development requires keeping up with new trends and evolving technology. With the growing compatibilty of HTML5 and CSS3 on most browsers the possibilties of what can be achieved has grown. As new APIs come out and more browsers recognize them what we will see on the internet in the future will change. I look forward to being part of that new wave of web development and creating never before seen sites. 
+</p>
+<p>With the additional skills of 3D animation I can create animations visual effects, films, or in the future even web. With the WebGL API I want to experiment with getting 3D renders out of Maya and to have users be able to rotate around them in a web page. Allow the user to control the look of the 3D scene as they rotate around objects.  
+</p>
+</section>
+<section id="contact">
+<h2>Contact me</h2>
+<div class="name">
+<p>I am a digital artist that can add more excitement to a project. Whether a small or large project I can get it done. I look forward to working with you to make great things happen.</p>
+<h3>Joshua J.</h3>
+<div class="icons">
+<a href="https://vimeo.com/joshuajinkerson"><img src="site_graphics/vimeo_icon.png" alt="Vimeo"/></a>
+<a href="https://www.linkedin.com/in/joshuajinkerson/"><img src="site_graphics/linkedin_logo.png" alt="LinkedIn"/></a>
+ <a href="Joshua_Jinkerson_resume.rtf" download><img src="site_graphics/resume.png" alt="Resume"></a>
+</div>
+</div>
+</section>
+</main>
+<script>
+vid = document.getElementsByTagName("video")
+for (i = 0; i < vid.length; i++) {
+    vid[i].setAttribute("ontouchstart", "play()");
+    vid[i].setAttribute("onmouseover", "play()");
+    vid[i].setAttribute("onmouseout", "pause()")
+    vid[i].setAttribute("preload", "auto")
+}
+    
+</script>
+
+<script src="jQueryAssets/SpryDOMUtils.js"></script>
+<script src="js/jquery.mixitup.js"></script>
+<script src="js/mixup_main.js"></script>
+</body>
+</html>
+
+
+
+
