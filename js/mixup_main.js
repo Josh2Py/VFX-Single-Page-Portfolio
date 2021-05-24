@@ -1,0 +1,1 @@
+$(function(){$("#mixup").mixItUp({animation:{animateResizeTargets:!1}})});

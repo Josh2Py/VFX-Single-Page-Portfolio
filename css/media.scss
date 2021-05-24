@@ -1,0 +1,296 @@
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    aside {
+    width:50%
+    }
+    
+    button {
+    font-size:3vw
+    }
+    
+    h2 {
+    font-size:8vw
+    }
+    
+    h3 {
+    font-size:5vw
+    }
+    
+    header {
+    background-color:rgba(153,153,153,.85)
+    }
+    
+    .icons {
+    width:60%;
+        img{
+            width:20%
+        }
+    }
+
+    .logo {
+    width:35%;
+    padding-left:5%
+    }
+    
+    nav {
+    font-size:4.5vw;
+    padding-right:7%;
+    padding-top:5%;
+    text-shadow:1px 1px 2px #333333;
+        a{
+            color:#fff;
+        }
+    }
+    
+    p {
+    font-size:4vw
+    }
+    
+    #reel:hover {
+    transform:scale(1.5);
+    margin:2%
+    }
+    
+    #title {
+    padding-bottom:40%;
+        #title_text {
+            padding-top:20%
+        }
+    }
+
+    video,img {
+    width:42%;
+    height:42%;
+    box-shadow:3px 3px 5px #333;
+    transition:transform 1s,margin 1s,box-shadow 1s
+    }
+    
+    .mix:hover {
+    box-shadow:5px 5px 10px #555;
+    transform:scale(1.5);
+    margin:2%
+    }
+}
+    
+
+@media screen and (min-width: 360px) and (max-width: 640px) {
+    aside {
+    width:50%
+    }
+    
+    button {
+    font-size:3vw
+    }
+    
+    h2 {
+    font-size:8vw
+    }
+    
+    h3 {
+    font-size:5vw
+    }
+    
+    header {
+    background-color:rgba(153,153,153,.85)
+    }
+    
+    .icons {
+    width:60%;
+        img{
+            width:20%;
+        }
+    }
+    
+    .logo {
+    width:35%;
+    padding-left:5%
+    }
+    
+    nav {
+    font-size:4.5vw;
+    padding-right:7%;
+    padding-top:5%;
+    text-shadow:1px 1px 2px #333;
+        a{
+            color:#fff;
+        }
+    }
+    
+    p {
+    font-size:4vw
+    }
+    
+    #reel:hover {
+    transform:scale(1.5);
+    margin:2%
+    }
+    
+    #title {
+    padding-bottom:50%
+    }
+    
+    video,img {
+    width:42%;
+    height:42%;
+    box-shadow:3px 3px 5px #333;
+    transition:transform 1s,margin 1s,box-shadow 1s
+    }
+    
+    .mix:hover {
+    box-shadow:5px 5px 10px #555;
+    transform:scale(1.5);
+    margin:2%
+    }
+    }
+    
+@media screen and (min-width: 414px) and (max-width: 785px) {
+    aside {
+    width:50%
+    }
+    
+    button {
+    font-size:3vw
+    }
+    
+    h2 {
+    padding-top:10%;
+    font-size:8vw
+    }
+    
+    h3 {
+    font-size:5vw
+    }
+    
+    header {
+    background-color:rgba(153,153,153,.85)
+    }
+    
+    .icons {
+    width:60%;
+        img{
+            width:20%;
+        }
+    }
+
+    .logo {
+    width:30%;
+    padding-left:3%
+    }
+    
+    nav {
+    font-size:4.5vw;
+    padding-right:7%;
+    padding-top:2.5%;
+    text-shadow:1px 1px 2px #333;
+        a{
+            color:#fff;
+        }
+    }
+    
+    p {
+    font-size:4vw
+    }
+    
+    #reel:hover {
+    transform:scale(1.5);
+    margin:2%
+    }
+    
+    #title {
+    padding-bottom:50%;
+        #title_text {
+            padding-top:20%
+        }
+    }
+
+    video,img {
+    width:42%;
+    height:42%;
+    box-shadow:3px 3px 5px #333;
+    transition:transform 1s,margin 1s,box-shadow 1s
+    }
+    
+    .mix:hover {
+    box-shadow:5px 5px 10px #555;
+    transform:scale(1.5);
+    margin:2%
+    }
+    }
+    
+@media screen and (min-width: 600px) and (max-width: 1024px) and (orientation: landscape) {
+    aside {
+    width:50%
+    }
+    
+    button {
+    font-size:3vw
+    }
+    
+    h2 {
+    padding-top:10%;
+    font-size:8vw
+    }
+    
+    h3 {
+    font-size:5vw
+    }
+    
+    header {
+    background-color:rgba(153,153,153,.85)
+    }
+    
+    .icons {
+    width:60%;
+        img{
+            width:20%;
+        }
+    }
+    
+    .logo {
+    width:30%;
+    padding-left:5%
+    }
+    
+    nav {
+    font-size:4vw;
+    padding-right:7%;
+    padding-top:3%;
+    text-shadow:1px 1px 2px #333333;
+        a{
+            color:#fff;
+
+        }
+    }
+    
+    p {
+    font-size:4vw
+    }
+    
+    #reel {
+    width:70%;
+    padding-top:20%;
+        &:hover{
+            transform:scale(1.5);
+            margin:2%;
+        }
+    }
+    
+    #title {
+    padding-bottom:50%;
+        #title_text {
+            padding-top:20%;
+        }
+    }
+
+    video,img {
+    width:42%;
+    height:42%;
+    box-shadow:3px 3px 5px #333;
+    transition:transform 1s,margin 1s,box-shadow 1s
+    }
+    
+    .mix:hover {
+    box-shadow:5px 5px 10px #555;
+    transform:scale(1.5);
+    margin:2%
+    }
+}
