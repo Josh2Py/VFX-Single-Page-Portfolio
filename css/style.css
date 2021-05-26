@@ -38,7 +38,7 @@ h1 {
    */
 hr {
   -webkit-box-sizing: content-box;
-          box-sizing: content-box;
+  box-sizing: content-box;
   /* 1 */
   height: 0;
   /* 1 */
@@ -76,7 +76,7 @@ abbr[title] {
   text-decoration: underline;
   /* 2 */
   -webkit-text-decoration: underline dotted;
-          text-decoration: underline dotted;
+  text-decoration: underline dotted;
   /* 2 */
 }
 
@@ -224,7 +224,7 @@ fieldset {
    */
 legend {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   /* 1 */
   color: inherit;
   /* 2 */
@@ -259,7 +259,7 @@ textarea {
 [type="checkbox"],
 [type="radio"] {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   /* 1 */
   padding: 0;
   /* 2 */
@@ -351,8 +351,8 @@ body {
 
 button {
   display: inline-block;
-  padding: .4em .8em;
-  background: #6F9;
+  padding: 0.4em 0.8em;
+  background: #6f9;
   color: #333;
   font-size: 1.5vw;
   border-radius: 50px;
@@ -363,7 +363,7 @@ button {
 }
 
 button.active {
-  background: #9FF;
+  background: #9ff;
 }
 
 #contact {
@@ -396,7 +396,7 @@ header {
 .logo {
   float: left;
   -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
   width: 25%;
   padding-left: 10%;
 }
@@ -407,25 +407,17 @@ main {
   width: 75%;
 }
 
-#mixup {
-  width: 100%;
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-justify-content: space-between;
-  -webkit-align-content: flex-start;
-}
-
 #mixup video img {
   -webkit-box-shadow: 5px 5px 7px #333;
-          box-shadow: 5px 5px 7px #333;
+  box-shadow: 5px 5px 7px #333;
   height: 30%;
   width: 30%;
   margin: 1%;
-  -webkit-transition: margin 1s,-webkit-transform 1s,-webkit-box-shadow 1s;
-  transition: margin 1s,-webkit-transform 1s,-webkit-box-shadow 1s;
-  transition: transform 1s,margin 1s,box-shadow 1s;
-  transition: transform 1s,margin 1s,box-shadow 1s,-webkit-transform 1s,-webkit-box-shadow 1s;
+  -webkit-transition: margin 1s, -webkit-transform 1s, -webkit-box-shadow 1s;
+  transition: margin 1s, -webkit-transform 1s, -webkit-box-shadow 1s;
+  transition: transform 1s, margin 1s, box-shadow 1s;
+  transition: transform 1s, margin 1s, box-shadow 1s, -webkit-transform 1s,
+    -webkit-box-shadow 1s;
 }
 
 #mixup .mix {
@@ -434,9 +426,9 @@ main {
 
 #mixup .mix:hover {
   -webkit-box-shadow: 7px 7px 14px #555;
-          box-shadow: 7px 7px 14px #555;
+  box-shadow: 7px 7px 14px #555;
   -webkit-transform: scale(1.5);
-          transform: scale(1.5);
+  transform: scale(1.5);
 }
 
 nav {
@@ -458,7 +450,7 @@ p {
 
 #reel {
   -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
   padding-top: 35%;
   height: auto;
   width: 80%;
@@ -466,7 +458,7 @@ p {
 
 #reel:hover {
   -webkit-transform: scale(1.5);
-          transform: scale(1.5);
+  transform: scale(1.5);
 }
 
 #sample {
@@ -482,7 +474,7 @@ section {
 #title {
   width: 62%;
   background-image: url(../site_graphics/Banner.jpg);
-  background-color: #9FF;
+  background-color: #9ff;
   background-blend-mode: multiply;
   background-size: cover;
   padding: 19%;
@@ -490,7 +482,7 @@ section {
 }
 
 #title #title_text {
-  font-family: "Gotham",sans-serif;
+  font-family: "Gotham", sans-serif;
   font-weight: 600;
   font-size: 3vw;
   color: #555;
@@ -498,16 +490,18 @@ section {
   float: right;
 }
 
-video, img {
+video,
+img {
   -webkit-box-shadow: 5px 5px 7px #333;
-          box-shadow: 5px 5px 7px #333;
+  box-shadow: 5px 5px 7px #333;
   height: 30%;
   width: 30%;
   margin: 1%;
-  -webkit-transition: margin 1s,-webkit-transform 1s,-webkit-box-shadow 1s;
-  transition: margin 1s,-webkit-transform 1s,-webkit-box-shadow 1s;
-  transition: transform 1s,margin 1s,box-shadow 1s;
-  transition: transform 1s,margin 1s,box-shadow 1s,-webkit-transform 1s,-webkit-box-shadow 1s;
+  -webkit-transition: margin 1s, -webkit-transform 1s, -webkit-box-shadow 1s;
+  transition: margin 1s, -webkit-transform 1s, -webkit-box-shadow 1s;
+  transition: transform 1s, margin 1s, box-shadow 1s;
+  transition: transform 1s, margin 1s, box-shadow 1s, -webkit-transform 1s,
+    -webkit-box-shadow 1s;
 }
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
@@ -550,7 +544,7 @@ video, img {
   }
   #reel:hover {
     -webkit-transform: scale(1.5);
-            transform: scale(1.5);
+    transform: scale(1.5);
     margin: 2%;
   }
   #title {
@@ -559,21 +553,23 @@ video, img {
   #title #title_text {
     padding-top: 20%;
   }
-  video, img {
+  video,
+  img {
     width: 42%;
     height: 42%;
     -webkit-box-shadow: 3px 3px 5px #333;
-            box-shadow: 3px 3px 5px #333;
-    -webkit-transition: margin 1s,-webkit-transform 1s,-webkit-box-shadow 1s;
-    transition: margin 1s,-webkit-transform 1s,-webkit-box-shadow 1s;
-    transition: transform 1s,margin 1s,box-shadow 1s;
-    transition: transform 1s,margin 1s,box-shadow 1s,-webkit-transform 1s,-webkit-box-shadow 1s;
+    box-shadow: 3px 3px 5px #333;
+    -webkit-transition: margin 1s, -webkit-transform 1s, -webkit-box-shadow 1s;
+    transition: margin 1s, -webkit-transform 1s, -webkit-box-shadow 1s;
+    transition: transform 1s, margin 1s, box-shadow 1s;
+    transition: transform 1s, margin 1s, box-shadow 1s, -webkit-transform 1s,
+      -webkit-box-shadow 1s;
   }
   .mix:hover {
     -webkit-box-shadow: 5px 5px 10px #555;
-            box-shadow: 5px 5px 10px #555;
+    box-shadow: 5px 5px 10px #555;
     -webkit-transform: scale(1.5);
-            transform: scale(1.5);
+    transform: scale(1.5);
     margin: 2%;
   }
 }
@@ -618,27 +614,29 @@ video, img {
   }
   #reel:hover {
     -webkit-transform: scale(1.5);
-            transform: scale(1.5);
+    transform: scale(1.5);
     margin: 2%;
   }
   #title {
     padding-bottom: 50%;
   }
-  video, img {
+  video,
+  img {
     width: 42%;
     height: 42%;
     -webkit-box-shadow: 3px 3px 5px #333;
-            box-shadow: 3px 3px 5px #333;
-    -webkit-transition: margin 1s,-webkit-transform 1s,-webkit-box-shadow 1s;
-    transition: margin 1s,-webkit-transform 1s,-webkit-box-shadow 1s;
-    transition: transform 1s,margin 1s,box-shadow 1s;
-    transition: transform 1s,margin 1s,box-shadow 1s,-webkit-transform 1s,-webkit-box-shadow 1s;
+    box-shadow: 3px 3px 5px #333;
+    -webkit-transition: margin 1s, -webkit-transform 1s, -webkit-box-shadow 1s;
+    transition: margin 1s, -webkit-transform 1s, -webkit-box-shadow 1s;
+    transition: transform 1s, margin 1s, box-shadow 1s;
+    transition: transform 1s, margin 1s, box-shadow 1s, -webkit-transform 1s,
+      -webkit-box-shadow 1s;
   }
   .mix:hover {
     -webkit-box-shadow: 5px 5px 10px #555;
-            box-shadow: 5px 5px 10px #555;
+    box-shadow: 5px 5px 10px #555;
     -webkit-transform: scale(1.5);
-            transform: scale(1.5);
+    transform: scale(1.5);
     margin: 2%;
   }
 }
@@ -684,7 +682,7 @@ video, img {
   }
   #reel:hover {
     -webkit-transform: scale(1.5);
-            transform: scale(1.5);
+    transform: scale(1.5);
     margin: 2%;
   }
   #title {
@@ -693,21 +691,23 @@ video, img {
   #title #title_text {
     padding-top: 20%;
   }
-  video, img {
+  video,
+  img {
     width: 42%;
     height: 42%;
     -webkit-box-shadow: 3px 3px 5px #333;
-            box-shadow: 3px 3px 5px #333;
-    -webkit-transition: margin 1s,-webkit-transform 1s,-webkit-box-shadow 1s;
-    transition: margin 1s,-webkit-transform 1s,-webkit-box-shadow 1s;
-    transition: transform 1s,margin 1s,box-shadow 1s;
-    transition: transform 1s,margin 1s,box-shadow 1s,-webkit-transform 1s,-webkit-box-shadow 1s;
+    box-shadow: 3px 3px 5px #333;
+    -webkit-transition: margin 1s, -webkit-transform 1s, -webkit-box-shadow 1s;
+    transition: margin 1s, -webkit-transform 1s, -webkit-box-shadow 1s;
+    transition: transform 1s, margin 1s, box-shadow 1s;
+    transition: transform 1s, margin 1s, box-shadow 1s, -webkit-transform 1s,
+      -webkit-box-shadow 1s;
   }
   .mix:hover {
     -webkit-box-shadow: 5px 5px 10px #555;
-            box-shadow: 5px 5px 10px #555;
+    box-shadow: 5px 5px 10px #555;
     -webkit-transform: scale(1.5);
-            transform: scale(1.5);
+    transform: scale(1.5);
     margin: 2%;
   }
 }
@@ -757,7 +757,7 @@ video, img {
   }
   #reel:hover {
     -webkit-transform: scale(1.5);
-            transform: scale(1.5);
+    transform: scale(1.5);
     margin: 2%;
   }
   #title {
@@ -766,21 +766,23 @@ video, img {
   #title #title_text {
     padding-top: 20%;
   }
-  video, img {
+  video,
+  img {
     width: 42%;
     height: 42%;
     -webkit-box-shadow: 3px 3px 5px #333;
-            box-shadow: 3px 3px 5px #333;
-    -webkit-transition: margin 1s,-webkit-transform 1s,-webkit-box-shadow 1s;
-    transition: margin 1s,-webkit-transform 1s,-webkit-box-shadow 1s;
-    transition: transform 1s,margin 1s,box-shadow 1s;
-    transition: transform 1s,margin 1s,box-shadow 1s,-webkit-transform 1s,-webkit-box-shadow 1s;
+    box-shadow: 3px 3px 5px #333;
+    -webkit-transition: margin 1s, -webkit-transform 1s, -webkit-box-shadow 1s;
+    transition: margin 1s, -webkit-transform 1s, -webkit-box-shadow 1s;
+    transition: transform 1s, margin 1s, box-shadow 1s;
+    transition: transform 1s, margin 1s, box-shadow 1s, -webkit-transform 1s,
+      -webkit-box-shadow 1s;
   }
   .mix:hover {
     -webkit-box-shadow: 5px 5px 10px #555;
-            box-shadow: 5px 5px 10px #555;
+    box-shadow: 5px 5px 10px #555;
     -webkit-transform: scale(1.5);
-            transform: scale(1.5);
+    transform: scale(1.5);
     margin: 2%;
   }
 }
